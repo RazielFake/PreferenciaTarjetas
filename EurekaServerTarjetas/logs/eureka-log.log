@@ -1,0 +1,219 @@
+2022-05-31 21:35:42,027 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerTarjetasApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 3344 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EurekaServerTarjetas\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EurekaServerTarjetas)
+2022-05-31 21:35:42,066 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:35:43,032 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-31 21:35:43,037 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-31 21:36:27,570 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerTarjetasApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 15496 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EurekaServerTarjetas\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EurekaServerTarjetas)
+2022-05-31 21:36:27,627 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:36:27,838 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-31 21:36:27,848 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-31 21:36:32,585 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=62cddc8a-ec60-33c4-9ff6-dbb5a91ed3d2
+2022-05-31 21:36:35,903 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-05-31 21:36:36,002 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-05-31 21:36:36,007 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-31 21:36:36,008 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-31 21:36:36,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-31 21:36:36,354 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8504 ms
+2022-05-31 21:36:38,575 WARN org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration [pool-1-thread-1] Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-05-31 21:36:40,127 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-05-31 21:36:40,406 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-05-31 21:36:40,409 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-05-31 21:36:41,078 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-05-31 21:36:41,079 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-05-31 21:36:44,741 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-31 21:36:44,742 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-05-31 21:36:44,761 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [RMI TCP Connection(3)-127.0.0.1] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-31 21:36:44,843 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 101 ms
+2022-05-31 21:36:44,863 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-31 21:36:45,244 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-05-31 21:36:46,112 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-31 21:36:46,154 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-31 21:36:46,396 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-31 21:36:46,396 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-05-31 21:36:46,426 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1654051006425 with initial instances count: 0
+2022-05-31 21:36:46,639 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-05-31 21:36:46,643 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-05-31 21:36:47,181 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-05-31 21:36:47,181 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-05-31 21:36:47,182 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-05-31 21:36:47,182 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-05-31 21:36:47,656 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-05-31 21:36:47,725 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-05-31 21:36:47,734 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-05-31 21:36:48,063 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-05-31 21:36:48,069 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-05-31 21:36:48,091 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] isAws returned false
+2022-05-31 21:36:48,092 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] Initialized server context
+2022-05-31 21:36:48,092 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Got 1 instances from neighboring DS node
+2022-05-31 21:36:48,092 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Renew threshold is: 1
+2022-05-31 21:36:48,093 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Changing status to UP
+2022-05-31 21:36:48,234 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-16] Started Eureka Server
+2022-05-31 21:36:48,701 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-05-31 21:36:48,707 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-05-31 21:36:48,949 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerTarjetasApplication in 22.712 seconds (JVM running for 27.747)
+2022-05-31 21:37:33,505 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-TARJETAS/api-tarjetas:024c4ae3bd61cf6db2aa31758767aa08 with status UP (replication=false)
+2022-05-31 21:37:33,876 WARN zipkin2.reporter.AsyncReporter$BoundedAsyncReporter [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-05-31 21:37:33,880 WARN zipkin2.reporter.AsyncReporter$BoundedAsyncReporter [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 2 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:67)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660)
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:51)
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.lambda$new$0(RestTemplateSender.java:44)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender.post(HttpSender.java:137)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:150)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:140)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 11 common frames omitted
+2022-05-31 21:37:34,212 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-TARJETAS/api-tarjetas:024c4ae3bd61cf6db2aa31758767aa08 with status UP (replication=true)
+2022-05-31 21:37:40,806 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(11)-127.0.0.1] Application shutdown requested.
+2022-05-31 21:37:40,810 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(11)-127.0.0.1] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-05-31 21:37:40,917 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(11)-127.0.0.1] Shutting down Eureka Server..
+2022-05-31 21:37:41,023 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(11)-127.0.0.1] Shutting down ...
+2022-05-31 21:37:41,424 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(11)-127.0.0.1] Shut down
+2022-05-31 21:37:41,424 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(11)-127.0.0.1] Eureka Service is now shutdown...
+2022-05-31 21:37:41,425 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(11)-127.0.0.1] Shutting down ...
+2022-05-31 21:37:41,573 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(11)-127.0.0.1] Shut down
+2022-05-31 21:37:42,027 INFO org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration$1 [Thread-5] Flushing remaining spans on shutdown
+2022-05-31 21:37:42,029 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(11)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-05-31 21:37:42,054 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(11)-127.0.0.1] Completed shut down of DiscoveryClient
+2022-05-31 21:38:38,636 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting EurekaServerTarjetasApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 5980 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EurekaServerTarjetas\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\EurekaServerTarjetas)
+2022-05-31 21:38:38,646 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-31 21:38:38,747 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-31 21:38:38,748 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-31 21:38:41,498 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=62cddc8a-ec60-33c4-9ff6-dbb5a91ed3d2
+2022-05-31 21:38:43,981 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8761 (http)
+2022-05-31 21:38:44,003 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8761"]
+2022-05-31 21:38:44,013 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-31 21:38:44,014 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-31 21:38:44,311 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-31 21:38:44,315 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5566 ms
+2022-05-31 21:38:46,002 WARN org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration [pool-1-thread-1] Check result of the [RestTemplateSender{http://localhost:9411/api/v2/spans}] contains an error [CheckResult{ok=false, error=org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information}]
+2022-05-31 21:38:47,047 INFO com.sun.jersey.server.impl.application.WebApplicationImpl [restartedMain] Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-05-31 21:38:47,164 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-05-31 21:38:47,166 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-05-31 21:38:47,514 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-05-31 21:38:47,514 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-05-31 21:38:50,053 INFO org.apache.juli.logging.DirectJDKLog [RMI TCP Connection(3)-127.0.0.1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-31 21:38:50,053 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Initializing Servlet 'dispatcherServlet'
+2022-05-31 21:38:50,074 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [RMI TCP Connection(3)-127.0.0.1] Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-05-31 21:38:50,102 INFO org.springframework.web.servlet.FrameworkServlet [RMI TCP Connection(3)-127.0.0.1] Completed initialization in 48 ms
+2022-05-31 21:38:50,234 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-05-31 21:38:50,552 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [restartedMain] Eureka HTTP Client uses Jersey
+2022-05-31 21:38:51,139 WARN org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [restartedMain] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-05-31 21:38:51,184 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [restartedMain] Setting initial instance status as: STARTING
+2022-05-31 21:38:51,247 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Initializing Eureka in region us-east-1
+2022-05-31 21:38:51,247 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Client configured to neither register nor query for data.
+2022-05-31 21:38:51,265 INFO com.netflix.discovery.DiscoveryClient [restartedMain] Discovery Client initialized at timestamp 1654051131264 with initial instances count: 0
+2022-05-31 21:38:51,400 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initializing ...
+2022-05-31 21:38:51,403 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Adding new peer nodes [http://localhost:8761/eureka/]
+2022-05-31 21:38:51,621 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON encoding codec LegacyJacksonJson
+2022-05-31 21:38:51,622 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using JSON decoding codec LegacyJacksonJson
+2022-05-31 21:38:51,623 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML encoding codec XStreamXml
+2022-05-31 21:38:51,623 INFO com.netflix.discovery.provider.DiscoveryJerseyProvider [restartedMain] Using XML decoding codec XStreamXml
+2022-05-31 21:38:52,111 INFO com.netflix.eureka.cluster.PeerEurekaNodes [restartedMain] Replica node URL:  http://localhost:8761/eureka/
+2022-05-31 21:38:52,215 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [restartedMain] Finished initializing remote region registries. All known remote regions: []
+2022-05-31 21:38:52,236 INFO com.netflix.eureka.DefaultEurekaServerContext [restartedMain] Initialized
+2022-05-31 21:38:52,577 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [restartedMain] Registering application API-EUREKA-SERVER with eureka with status UP
+2022-05-31 21:38:52,580 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8761"]
+2022-05-31 21:38:52,602 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] isAws returned false
+2022-05-31 21:38:52,603 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-16] Initialized server context
+2022-05-31 21:38:52,604 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Got 1 instances from neighboring DS node
+2022-05-31 21:38:52,604 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Renew threshold is: 1
+2022-05-31 21:38:52,604 INFO com.netflix.eureka.registry.PeerAwareInstanceRegistryImpl [Thread-16] Changing status to UP
+2022-05-31 21:38:52,675 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8761 (http) with context path ''
+2022-05-31 21:38:52,680 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [restartedMain] Updating port to 8761
+2022-05-31 21:38:52,780 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-16] Started Eureka Server
+2022-05-31 21:38:53,016 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started EurekaServerTarjetasApplication in 15.931 seconds (JVM running for 18.49)
+2022-05-31 21:39:23,964 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91 with status UP (replication=false)
+2022-05-31 21:39:24,606 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-3] Registered instance API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91 with status UP (replication=true)
+2022-05-31 21:39:24,633 WARN zipkin2.reporter.AsyncReporter$BoundedAsyncReporter [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] Spans were dropped due to exceptions. All subsequent errors will be logged at FINE level.
+2022-05-31 21:39:24,637 WARN zipkin2.reporter.AsyncReporter$BoundedAsyncReporter [AsyncReporter{RestTemplateSender{http://localhost:9411/api/v2/spans}}] Dropped 3 spans due to ResourceAccessException(I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information)
+org.springframework.web.client.ResourceAccessException: I/O error on POST request for "http://localhost:9411/api/v2/spans": Connection refused: no further information; nested exception is java.net.ConnectException: Connection refused: no further information
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:785)
+	at org.springframework.cloud.sleuth.zipkin2.ZipkinRestTemplateWrapper.doExecute(ZipkinRestTemplateWrapper.java:67)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:660)
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.post(RestTemplateSender.java:51)
+	at org.springframework.cloud.sleuth.zipkin2.RestTemplateSender.lambda$new$0(RestTemplateSender.java:44)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender.post(HttpSender.java:137)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:150)
+	at org.springframework.cloud.sleuth.zipkin2.HttpSender$HttpPostCall.doExecute(HttpSender.java:140)
+	at zipkin2.Call$Base.execute(Call.java:391)
+	at zipkin2.reporter.AsyncReporter$BoundedAsyncReporter.flush(AsyncReporter.java:299)
+	at zipkin2.reporter.AsyncReporter$Flusher.run(AsyncReporter.java:378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at org.springframework.http.client.SimpleBufferingClientHttpRequest.executeInternal(SimpleBufferingClientHttpRequest.java:76)
+	at org.springframework.http.client.AbstractBufferingClientHttpRequest.executeInternal(AbstractBufferingClientHttpRequest.java:48)
+	at org.springframework.http.client.AbstractClientHttpRequest.execute(AbstractClientHttpRequest.java:66)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:776)
+	... 11 common frames omitted
+2022-05-31 21:39:52,607 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-31 21:39:56,519 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91 with status DOWN (replication=false)
+2022-05-31 21:39:57,036 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-9] Registered instance API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91 with status DOWN (replication=true)
+2022-05-31 21:40:00,642 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-10] Cancelled instance API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91 (replication=false)
+2022-05-31 21:40:01,151 WARN com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] DS: Registry: cancel failed because Lease is not registered for: API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91
+2022-05-31 21:40:01,152 INFO com.netflix.eureka.resources.InstanceResource [http-nio-8761-exec-7] Not Found (Cancel): API-TARJETAS - api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91
+2022-05-31 21:40:01,153 WARN com.netflix.eureka.cluster.ReplicationTask [TaskBatchingWorker-target_localhost-4] The replication of task API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91:Cancel@localhost failed with response code 404
+2022-05-31 21:40:01,154 WARN com.netflix.eureka.cluster.PeerEurekaNode$2 [TaskBatchingWorker-target_localhost-4] API-TARJETAS/api-tarjetas:8fdd847ad35b26c7bf6c7faef72d5c91:Cancel@localhost: missing entry.
+2022-05-31 21:40:44,621 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-5] Registered instance API-TARJETAS/api-tarjetas:f71312eb83573f534f90de6dce8bf676 with status UP (replication=false)
+2022-05-31 21:40:45,135 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-TARJETAS/api-tarjetas:f71312eb83573f534f90de6dce8bf676 with status UP (replication=true)
+2022-05-31 21:40:52,607 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-31 21:41:16,831 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-7] Registered instance API-USUARIO/DESKTOP-T9AQFTG:api-usuario:8002 with status UP (replication=false)
+2022-05-31 21:41:17,360 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-1] Registered instance API-USUARIO/DESKTOP-T9AQFTG:api-usuario:8002 with status UP (replication=true)
+2022-05-31 21:41:44,769 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-6] Registered instance API-GATEWAY-SERVER/DESKTOP-T9AQFTG:api-gateway-server:8090 with status UP (replication=false)
+2022-05-31 21:41:45,073 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/DESKTOP-T9AQFTG:api-gateway-server:8090 with status UP (replication=true)
+2022-05-31 21:41:52,614 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 6ms
+2022-05-31 21:42:52,614 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-31 21:43:52,615 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-31 21:44:52,615 INFO com.netflix.eureka.registry.AbstractInstanceRegistry$EvictionTask [Eureka-EvictionTimer] Running the evict task with compensationTime 0ms
+2022-05-31 21:45:24,048 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(14)-127.0.0.1] Application shutdown requested.
+2022-05-31 21:45:24,050 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [RMI TCP Connection(14)-127.0.0.1] Unregistering application API-EUREKA-SERVER with eureka with status DOWN
+2022-05-31 21:45:24,060 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-8] Registered instance API-TARJETAS/api-tarjetas:f71312eb83573f534f90de6dce8bf676 with status DOWN (replication=false)
+2022-05-31 21:45:24,081 INFO com.netflix.eureka.registry.AbstractInstanceRegistry [http-nio-8761-exec-4] Registered instance API-GATEWAY-SERVER/DESKTOP-T9AQFTG:api-gateway-server:8090 with status DOWN (replication=false)
+2022-05-31 21:45:24,129 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(14)-127.0.0.1] Shutting down Eureka Server..
+2022-05-31 21:45:24,277 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(14)-127.0.0.1] Shutting down ...
+2022-05-31 21:45:24,671 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(14)-127.0.0.1] Shut down
+2022-05-31 21:45:24,672 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [RMI TCP Connection(14)-127.0.0.1] Eureka Service is now shutdown...
+2022-05-31 21:45:24,674 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(14)-127.0.0.1] Shutting down ...
+2022-05-31 21:45:24,848 INFO com.netflix.eureka.DefaultEurekaServerContext [RMI TCP Connection(14)-127.0.0.1] Shut down
+2022-05-31 21:45:25,656 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(14)-127.0.0.1] Shutting down DiscoveryClient ...
+2022-05-31 21:45:25,660 INFO org.springframework.cloud.sleuth.autoconfig.zipkin2.ZipkinAutoConfiguration$1 [Thread-5] Flushing remaining spans on shutdown
+2022-05-31 21:45:25,680 INFO com.netflix.discovery.DiscoveryClient [RMI TCP Connection(14)-127.0.0.1] Completed shut down of DiscoveryClient

@@ -1,0 +1,75 @@
+2022-05-25 20:39:53,416 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-25 20:39:53,461 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestUsuarioApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 17344 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario)
+2022-05-25 20:39:53,463 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 20:39:53,587 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-25 20:39:53,587 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-25 20:39:55,559 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=0bdb321d-3f01-3873-a032-cc4770e4b353
+2022-05-25 20:39:56,477 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-05-25 20:39:56,511 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8002"]
+2022-05-25 20:39:56,513 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-25 20:39:56,514 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 20:39:56,665 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-25 20:39:56,666 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3078 ms
+2022-05-25 20:39:57,381 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-25 20:39:57,847 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8002"]
+2022-05-25 20:39:57,897 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/usuario'
+2022-05-25 20:39:58,187 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestUsuarioApplication in 5.813 seconds (JVM running for 8.309)
+2022-05-25 20:40:14,072 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8002-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-25 20:40:14,074 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-25 20:40:14,078 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Completed initialization in 1 ms
+2022-05-25 20:44:24,272 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestUsuarioApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 17344 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario)
+2022-05-25 20:44:24,272 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 20:44:24,969 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=0bdb321d-3f01-3873-a032-cc4770e4b353
+2022-05-25 20:44:25,217 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-05-25 20:44:25,220 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8002"]
+2022-05-25 20:44:25,220 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-25 20:44:25,307 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 20:44:25,386 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-25 20:44:25,387 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1104 ms
+2022-05-25 20:44:25,666 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-25 20:44:25,895 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8002"]
+2022-05-25 20:44:25,903 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/usuario'
+2022-05-25 20:44:26,152 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestUsuarioApplication in 2.207 seconds (JVM running for 276.275)
+2022-05-25 20:44:26,156 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-25 20:44:35,611 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8002-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-25 20:44:35,612 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-25 20:44:35,614 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Completed initialization in 1 ms
+2022-05-25 20:46:47,784 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestUsuarioApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 17344 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario)
+2022-05-25 20:46:47,785 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 20:46:48,396 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=0bdb321d-3f01-3873-a032-cc4770e4b353
+2022-05-25 20:46:48,493 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-05-25 20:46:48,493 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8002"]
+2022-05-25 20:46:48,494 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-25 20:46:48,494 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 20:46:48,528 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-25 20:46:48,528 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 713 ms
+2022-05-25 20:46:48,716 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-25 20:46:48,982 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8002"]
+2022-05-25 20:46:48,990 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/usuario'
+2022-05-25 20:46:49,327 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestUsuarioApplication in 1.921 seconds (JVM running for 419.449)
+2022-05-25 20:46:49,330 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2022-05-25 20:46:53,207 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8002-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-25 20:46:53,208 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-05-25 20:46:53,209 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-2] Completed initialization in 1 ms
+2022-05-25 20:48:35,823 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(23)-127.0.0.1] Application shutdown requested.
+2022-05-25 22:21:23,767 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-05-25 22:21:23,784 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestUsuarioApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 1424 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestUsuario)
+2022-05-25 22:21:23,809 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-25 22:21:23,980 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-25 22:21:23,981 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-25 22:21:25,567 INFO org.springframework.cloud.context.scope.GenericScope [restartedMain] BeanFactory id=f9c82b26-8ceb-39a1-af22-dee708e9c52a
+2022-05-25 22:21:26,286 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8002 (http)
+2022-05-25 22:21:26,300 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8002"]
+2022-05-25 22:21:26,301 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-05-25 22:21:26,302 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-05-25 22:21:26,431 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-05-25 22:21:26,431 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2450 ms
+2022-05-25 22:21:26,784 WARN org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] Unable to start LiveReload server
+2022-05-25 22:21:27,549 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8002"]
+2022-05-25 22:21:27,635 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8002 (http) with context path '/api/v1/usuario'
+2022-05-25 22:21:27,834 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started RestUsuarioApplication in 4.83 seconds (JVM running for 6.572)
+2022-05-25 22:21:53,281 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8002-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-25 22:21:53,281 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-05-25 22:21:53,283 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8002-exec-1] Completed initialization in 1 ms
+2022-05-25 22:26:29,808 INFO com.ibm.academia.restapi.usuario.controller.UsuarioController [http-nio-8002-exec-8] Message: El dato: 'ALGO' es invalido.. Cause: null
+2022-05-25 22:35:49,335 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(22)-127.0.0.1] Application shutdown requested.
